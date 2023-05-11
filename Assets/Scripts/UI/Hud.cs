@@ -82,6 +82,7 @@ namespace Match3
         public void OnGameWin(int score)
         {
             _gameOver.ShowWin(score, _starIndex);
+
             if (_starIndex > PlayerPrefs.GetInt(SceneManager.GetActiveScene().name, 0))
             {
                 PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, _starIndex);

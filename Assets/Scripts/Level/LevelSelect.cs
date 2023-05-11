@@ -2,7 +2,7 @@
 
 namespace Match3
 {
-    public class LevelSelect : MonoBehaviour
+    public class LevelSelect : ScenesManager
     {
         [System.Serializable]
         public struct ButtonPlayerPrefs
@@ -30,6 +30,11 @@ namespace Match3
         public void OnButtonPress(string levelName)
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(levelName);
+        }
+
+        public void OpenMainMenu()
+        {
+            BackToMainMenu();
         }
     }
 }

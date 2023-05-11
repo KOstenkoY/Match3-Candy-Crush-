@@ -339,8 +339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62fb356db7d2834b87559058d1855a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xDimension: 6
-  yDimension: 7
+  xDimension: 8
+  yDimension: 8
   fillTime: 0.1
   _level: {fileID: 1486019197}
   _piecePrefabs:
@@ -681,11 +681,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gameGrid: {fileID: 1082635049}
   _hud: {fileID: 1302726067}
-  _scoreFirstStar: 15000
-  _scoreSecondStar: 18000
-  _scoreThirdStar: 21000
-  _numMoves: 14
-  targetScore: 15000
+  _scoreFirstStar: 35000
+  _scoreSecondStar: 40000
+  _scoreThirdStar: 45000
+  _numMoves: 60
+  targetScore: 35000
 --- !u!1 &1503413461
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,7 +710,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503413461}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.5, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
