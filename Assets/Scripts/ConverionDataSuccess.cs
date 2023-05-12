@@ -12,6 +12,7 @@ public class ConverionDataSuccess : MonoBehaviour
     private void Start()
     {
         _appsFlyerObject.onConversionDataSuccess(conversionData);
-        _conversionDataSeccessText.text = conversionData;
+        _conversionDataSeccessText.text = AppsFlyer.getAppsFlyerId();
+        
     }
 }
